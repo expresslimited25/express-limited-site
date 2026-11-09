@@ -12,6 +12,9 @@ h1{font-size:clamp(2.2rem,5vw,3.6rem);letter-spacing:-.02em}
 .lead{color:var(--muted);max-width:34rem;margin:20px 0 28px}
 .btn{display:inline-block;background:var(--navy);color:var(--paper);padding:14px 22px;border-radius:10px;font-weight:600;text-decoration:none}
 .btn:hover{text-decoration:underline}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin:0}
+.btn.alt{background:transparent;color:var(--navy);border:2px solid var(--navy);padding:12px 20px}
+.note{color:var(--muted);font-size:.92rem;margin:14px 0 0;max-width:34rem}
 a:focus-visible,.btn:focus-visible{outline:3px solid var(--turmeric);outline-offset:3px}
 .chat{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px}
 .chat small{display:block;color:var(--muted);margin-bottom:12px}
